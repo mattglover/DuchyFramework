@@ -12,6 +12,8 @@
 		B2FA8B901D6F349A0036C4A1 /* DuchyFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FA8B8F1D6F349A0036C4A1 /* DuchyFrameworkTests.swift */; };
 		B2FA8B9B1D6F34A60036C4A1 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FA8B9A1D6F34A60036C4A1 /* Person.swift */; };
 		B2FA8B9D1D6F34C00036C4A1 /* PersonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FA8B9C1D6F34C00036C4A1 /* PersonTests.swift */; };
+		B2FA8BD11D6F39710036C4A1 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FA8BD01D6F39710036C4A1 /* Dog.swift */; };
+		B2FA8BD31D6F3AB80036C4A1 /* DogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FA8BD21D6F3AB80036C4A1 /* DogTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,8 @@
 		B2FA8B911D6F349A0036C4A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2FA8B9A1D6F34A60036C4A1 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		B2FA8B9C1D6F34C00036C4A1 /* PersonTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTests.swift; sourceTree = "<group>"; };
+		B2FA8BD01D6F39710036C4A1 /* Dog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		B2FA8BD21D6F3AB80036C4A1 /* DogTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,7 @@
 				B2FA8B831D6F349A0036C4A1 /* DuchyFramework.h */,
 				B2FA8B851D6F349A0036C4A1 /* Info.plist */,
 				B2FA8B9A1D6F34A60036C4A1 /* Person.swift */,
+				B2FA8BD01D6F39710036C4A1 /* Dog.swift */,
 			);
 			path = DuchyFramework;
 			sourceTree = "<group>";
@@ -88,6 +93,7 @@
 				B2FA8B8F1D6F349A0036C4A1 /* DuchyFrameworkTests.swift */,
 				B2FA8B911D6F349A0036C4A1 /* Info.plist */,
 				B2FA8B9C1D6F34C00036C4A1 /* PersonTests.swift */,
+				B2FA8BD21D6F3AB80036C4A1 /* DogTests.swift */,
 			);
 			path = DuchyFrameworkTests;
 			sourceTree = "<group>";
@@ -200,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2FA8BD11D6F39710036C4A1 /* Dog.swift in Sources */,
 				B2FA8B9B1D6F34A60036C4A1 /* Person.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,6 +217,7 @@
 			files = (
 				B2FA8B9D1D6F34C00036C4A1 /* PersonTests.swift in Sources */,
 				B2FA8B901D6F349A0036C4A1 /* DuchyFrameworkTests.swift in Sources */,
+				B2FA8BD31D6F3AB80036C4A1 /* DogTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +397,7 @@
 				B2FA8B961D6F349A0036C4A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2FA8B971D6F349A0036C4A1 /* Build configuration list for PBXNativeTarget "DuchyFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -397,6 +406,7 @@
 				B2FA8B991D6F349A0036C4A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
