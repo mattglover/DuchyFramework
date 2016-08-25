@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class Dog {
+@objc public class Dog :NSObject {
 	public let name: String
 	public let dob : NSDate?
 
